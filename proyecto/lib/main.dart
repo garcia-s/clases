@@ -2,19 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:proyecto/llamada_a_mockup.dart';
 
 void main() {
-  runApp(Application());
+  runApp(const Application());
 }
 
 class Application extends StatelessWidget {
   //constructor
-  Application({super.key});
+  const Application({super.key});
 
   //variables
 
   //metoddo
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         body: Center(
           child: MostrarUsuarios(),
@@ -25,7 +25,7 @@ class Application extends StatelessWidget {
 }
 
 class MostrarUsuarios extends StatefulWidget {
-  MostrarUsuarios({super.key});
+  const MostrarUsuarios({super.key});
 
   @override
   State<MostrarUsuarios> createState() => _MostrarUsuariosState();
@@ -39,15 +39,16 @@ class _MostrarUsuariosState extends State<MostrarUsuarios> {
     // crear instancia de la clase
     MockupConexion conexion = MockupConexion();
     // llamar la conexion
-    conexion.fingirConexionYtraerUsuarios()
-        // esperar al regreso del futuro
-        .then((val) {
-      // cambiar usuaros al valor esperado
-      setState(() {
-        usuarios = val;
+    if (usuarios == null) {
+      conexion.fingirConexionYtraerUsuarios()
+          // esperar al regreso del futuro
+          .then((val) {
+        // cambiar usuarios al valor esperado
+        setState(() {
+          usuarios = val;
+        });
       });
-      print(usuarios);
-    });
+    }
 
     if (usuarios == null) return Text("Cargando");
     return Column(
