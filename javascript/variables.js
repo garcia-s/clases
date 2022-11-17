@@ -1,5 +1,0 @@
-function funcionRecursiva() {
-    funcionRecursiva()
-}   
-
-funcionRecursiva();

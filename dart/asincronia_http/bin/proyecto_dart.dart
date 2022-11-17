@@ -1,6 +1,9 @@
 import 'dart:io';
 import 'package:http/http.dart' as http;
+
 import 'dart:convert';
+
+import 'package:proyecto_dart/animales.dart';
 
 Future<void> main() async {
   //  Convertir una cadena de texto a una Uri de dart
@@ -25,6 +28,7 @@ Future<void> main() async {
       print('------------------------------');
       print("URL: ${elementoActual['url']}");
       print('#################################');
+      Animal animal = Perro(goodBoy: true);
     }
   }
 }

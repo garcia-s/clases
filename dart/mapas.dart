@@ -18,6 +18,7 @@ Map<String, MiTipo> mimapa = {
 };
 
 void main(List<String> args) {
-  // Para acceder a un valor dentro de un mapa se utiliza el valor asignado a esa variable y entre corchetes [] la llave asignada a ese valor;
+  // Para acceder a un valor dentro de un mapa se utiliza el valor asignado a esa variable y 
+  // entre corchetes [] la llave asignada a ese valor;
   print(tallas["pantalon"]); //  imprime 32;
 }
