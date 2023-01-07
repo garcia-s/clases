@@ -1,6 +1,6 @@
 // En dart las variables se definen iniciando con el tipo de dato que se va a almacenar.
 // Luego se coloca el nombre de la variable y por ultimo se le asigna un valor
-
+// Las variables pueden ser primitivos o tipos creados por el usuario;
 String nombreVariable = "Valor de la Variable";
 
 // En dart cada clase es un tipo de dato diferente por lo cual una variable puede ser
