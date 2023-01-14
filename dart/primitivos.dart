@@ -6,10 +6,10 @@
 //    bool (verdadero o falso);
 
 // En dart los strings son una lista de caracteres entre comillas simples o dobles;
-String cadenas = "Hola soy un string";
+String cadenas = 'Hola soy un string';
 
 // Los valores enteros se escriben solo con numeros sin ningun caracter adicional;
-int entero = 32;
+var entero = 32;
 
 // Los valores de punto foltante se caracterizan por utilizar un punto (.)
 // para separar los numeros decimales
