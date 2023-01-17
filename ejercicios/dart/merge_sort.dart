@@ -5,14 +5,14 @@ void main(List<String> args) {
   var orderedList = MergeSorterPointers.mergeSort(list);
   var after = DateTime.now();
   var ms = after.difference(before).inMilliseconds;
-  print("El mergeSort tardó ${ms} ms"); 
+  print("El mergeSort tardó ${ms} ms");
 // -------------------------------
   // print(nuevaLista);
   var beforeBubble = DateTime.now();
   var orderedListBubble = bubbleSort(nuevaLista);
   var afterBubble = DateTime.now();
   var msBubble = afterBubble.difference(beforeBubble).inMilliseconds;
-  print("El BubbleSort tardó ${msBubble} ms"); 
+  print("El BubbleSort tardó ${msBubble} ms");
 }
 
 List<int> generateRandomList(int length) {
@@ -37,15 +37,21 @@ bubbleSort(List<int> array) {
   }
   return (array);
 }
+// [1,2,3,4,
+// 
+// 5,6,7,9]
+
+// 1,2,3,4,5,6,7,9
 
 class MergeSorterPointers {
   static List<int> mergeSort(List<int> list) {
     //guardar el length para no llamar varias veces
 
     var length = list.length;
-    // almacenamos entonces la mitad de la lista;
 
+    // almacenamos entonces la mitad de la lista;
     int mid = length ~/ 2;
+
     if (length == 1) return list;
     var left = mergeSort(list.sublist(0, mid));
     var right = mergeSort(list.sublist(mid));

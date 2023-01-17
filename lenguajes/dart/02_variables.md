@@ -34,3 +34,7 @@ Y podemos cambiar el valor de una variable declarada con la siguiente sintaxis
 ```
   nombreVariable = "Nuevo Valor de variable";
 ```
+
+[Volver a la leccion anterior](./01_lenguaje.md)  | [Ir a la siguiente leccion](./03_data_types.md) 
+
+[Ir a la pagina principal del lenguaje](./index.md) 

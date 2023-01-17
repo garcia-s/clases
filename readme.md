@@ -3,15 +3,16 @@
 
 Has click en el lenguaje que quieras aprender para ir al menu de ese lenguaje.
 
- - [Dart]()
- - [C]()
- - [Python]()
- - [C#]()
- - [Golang]()
+ - [Dart](./lenguajes/dart/index.md)
+ - [Python](./lenguajes/python/index.md)
  - [Javascript]()
- - [Rust]()
  - [Typescript]()
  - [PHP]()
+ - [C]()
+ - [C++]()
+ - [C#]()
+ - [Golang]()
+ - [Rust]()
 
 
-##[Ir a la carpeta de ejercicios](./ejercicios)
+[Ir a la carpeta de ejercicios](./ejercicios)

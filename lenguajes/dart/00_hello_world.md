@@ -14,4 +14,8 @@ void main(List<String> args) {
 ```
 
 
-[Ir a la siguiente leccion](./01_lenguaje.md}) 
+[Ir a la siguiente leccion](./01_lenguaje.md) 
+ 
+
+[Ir a la pagina principal del lenguaje](./index.md) 
+
