@@ -12,3 +12,6 @@ void main(List<String> args) {
   print("Hello World");
 }
 ```
+
+
+[Ir a la siguiente leccion](./01_lenguaje.md}) 

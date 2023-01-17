@@ -26,7 +26,6 @@
 
 - 1. Crear una funcion que reemplace todos espacios de una cadena de texto por un guion (-)
 
-
 - 2. Separar la url "https://www.estaruta.com/usuarios/ingresados/1" en las rutas a las que se intenta acceder.
 
 - 3. Crear una funcion que determine si un Email es valido.
