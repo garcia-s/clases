@@ -13,6 +13,14 @@ void main(List<String> args) {
 }
 ```
 
+Puedes ejecutar el codigo utilizando el interprete de dart a traves de la linea de comandos, seguido da direccion al archivo en tu computador
+
+```
+> dart ./hello_world.dart
+```
+
+
+
 
 [Ir a la siguiente leccion](./01_lenguaje.md) 
  

@@ -12,4 +12,15 @@ fn main() {
 }
 ```
 
-Para ejecutar la aplicacion en rust a diferencia de lenguajes como javascript, dart y python, primero debe compilar el codigo.
+Para ejecutar la aplicacion en rust a diferencia de lenguajes como javascript, dart y python, primero debe compilar el codigo. Para compilar rust debera ejecutar el compilador en la linea de comandos seguido de la ruta al archivo que va a compilar.
+
+
+```
+> rustc .hello_world.rs
+```
+
+Y luego ejecutar el nuevo archivo generado por el compilador.
+
+```
+> ./hello_world
+```
