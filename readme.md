@@ -1,4 +1,4 @@
-# Guia y practicas de programación del grupo Mitnick
+# Guia y practicas de programación del grupo Symmetry
 
 
 Has click en el lenguaje que quieras aprender para ir al menu de ese lenguaje.
