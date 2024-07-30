@@ -8,7 +8,7 @@ La estructura de la web debe hacerse utilizando css-flex y sin contener ningun m
 
 Imágenes de referencia
 
-[Imagen diseño desktop](./basic-template-desktop.png)
+![Imagen diseño desktop](./basic-template-desktop.png)
 [Imagen diseño mobile](./basic-template-mobile.png)
 
 ---
