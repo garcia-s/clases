@@ -5,8 +5,8 @@ La idea de esta carpeta es almacenar los proyectos pequeños como servidores web
 ## Lista de Microproyectos
 
 
-- 1 (Plantilla sencilla de pagina web)[./1-css-web-template/]
-- 2 (Cambio de color)[./2-color-change/]
-- 3 (Contador)[./3-counter/]
-- 4 (Validacion de formulario)[./4-form-validation/]
-- 5 (Menu Desplegable)[./5-dropdown-menu//]
+- 1 [Plantilla sencilla de pagina web](./1-css-web-template/)
+- 2 [Cambio de color](./2-color-change/)
+- 3 [Contador](./3-counter/)
+- 4 [Validacion de formulario](./4-form-validation/)
+- 5 [Menu Desplegable](./5-dropdown-menu/)
