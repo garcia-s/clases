@@ -13,10 +13,11 @@ La validación debe hacerse al hacer click en el botón de continuar y los error
 
 ### Reglas de la validación
 
-- El campo de nombre debe contener al menos 2 caracteres
+- El campo nombre debe contener al menos 2 caracteres y no permite números
 - El campo dirección debe contener al menos 5 caracteres
-- El campo teléfono debe solo contener numeros y tener entre 9 y 12 caracteres
+- El campo teléfono debe solo contener números y tener entre 9 y 12 caracteres
 - El campo edad debe ser un numero entre 13 y 100 caracteres
+
 ---
 
 ## Conceptos a aprender
