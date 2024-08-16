@@ -1,0 +1,43 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E6E6EA;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    position: relative; 
+    left: 25%;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px;
+}
+
+label{
+    width: 300px;
+    font-size: 20px;
+}
+
+input{
+    background-color:#E6E6EA;
+    width: 300px;
+    height: 40px;
+    border: none;   
+}
