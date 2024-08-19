@@ -5,20 +5,25 @@ html{
 
 body{
     background-color: #E6E6EA;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .container{
     background-color: white;
-    width: 600px;
-    position: relative; 
-    left: 25%;
+    padding: 20px 40px;
 }
 
 
 .title{
     text-align: center;
     font-size: 30px;
+    color: #333;
 }
 
 form{
@@ -26,18 +31,39 @@ form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
-    padding: 40px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
 }
 
 label{
     width: 300px;
-    font-size: 20px;
+    font-size: 12px;
+    color: #333;
 }
 
 input{
     background-color:#E6E6EA;
     width: 300px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 10px;   
+}
+
+.btn{
+    margin-top: 25px;
+}
+
+.styleBtn{
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    border: none;
     height: 40px;
-    border: none;   
+    width: 300px;
 }
