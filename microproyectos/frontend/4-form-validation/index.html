@@ -13,26 +13,30 @@
     <div class="container">
 
         <div class="title">Formulario</div>
-        <form id="form_name">
-            <div class="form_item">
-                <label>Nombre</label>
-                <input type="text" id="username" placeholder="Escribe tu nombre">
-            </div>
 
+        <form id="form1">
+            <div class="form_item" id="grupo_nombre">
+                <label>Nombre</label>
+                <input type="text" name="name" id="username" placeholder="Escribe tu nombre">
+                <p class="formulario_nombreIncorrecto">Error:el nombre es demasiado corto</p>
+            </div>
             <div class="form_item">
                 <label>Direccion</label>
-                <input type="text" name="" id="direction" placeholder="Escribe tu direccion" >
+                <input type="text" name="direction" id="direction" placeholder="Escribe tu direccion">
+                <p class="formulario_nombreIncorrecto">Error:la dirrecion es corta</p>
             </div>
             <div class="form_item">
                 <label for="">Telefono</label>
-                <input type="text" name="" id="number" placeholder="Escribe tu telefono">
+                <input type="text" name="number" id="number" placeholder="Escribe tu telefono">
+                <p class="formulario_nombreIncorrecto">Error:el telefono debe contener solo numeros</p>
             </div>
             <div class="form_item">
                 <label for="">Edad</label>
-                <input type="text" id="age" placeholder="Escribe tu edad">
+                <input type="text" name="age" id="age" placeholder="Escribe tu edad">
+                <p class="formulario_nombreIncorrecto">Error:la edad debe ser de minimo 13</p>
             </div>
             <div class="btn">
-                <button class="styleBtn">Continuar</button>
+                <button type="submit" class="styleBtn">Continuar</button>
             </div>
 
         </form>
