@@ -14,6 +14,12 @@ const expresiones = {
 const validarFormulario = (e) => {
     switch (e.target.name) {
         case "nombre":
+
+        if(expresiones.nombre.test(e.target.value)){
+            
+        } else {
+            document.getElementById("name").classList.add("formulario__grupo-incorrecto")
+        }
     
         break;
         case "correo":
