@@ -1,0 +1,47 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: silver;
+    padding: 10px;
+    display: flex;
+    min-height: 100svh;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.rectangulo {
+    background-color: white;
+    border-radius: 10px;
+    height: 80px;
+}
+
+.index {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.cuadrado-1 {
+    background-color: silver;
+    border-radius: 5px;
+    flex: 2;
+    min-width: min(500px, 100%);
+}
+
+.cuadrado-2 {
+    background-color: silver;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 300px;
+}
